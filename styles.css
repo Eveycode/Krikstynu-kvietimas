@@ -1,0 +1,114 @@
+@import url('https://fonts.cdnfonts.com/css/italian-breakfast');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Playpen Sans", cursive;
+    text-align: center;
+}
+
+body {
+    background-image: url(background.jpg);
+    width: 100%;
+    min-height: 500px;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;    
+}
+
+header {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    background-color: rgb(255, 190, 152);
+    opacity: 70%;
+    border-bottom: 2px solid white;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 3rem;
+}
+
+h1 {
+    font-family: italian breakfast;
+    font-size: 20rem;
+    color: rgb(255, 190, 152);
+}
+
+h2 {
+    font-size: 4rem;
+}
+
+h3 {
+    font-size: 2.5rem;
+    padding: 30px;
+}
+
+.pagrindinis {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 50px;
+}
+.dezute1{
+width: 400px; 
+height: 600px; 
+background-color: rgba(255, 190, 152, 0.75); 
+color: white; 
+display: flex;
+align-items: center; 
+justify-content: center;
+border-radius: 2rem;
+box-shadow: 5px 10px rgb(255, 255, 255, 0.5);
+
+}
+.dezute2{
+width: 250px; 
+height: 600px; 
+background-color: rgba(255, 190, 152, 0.75); 
+color: white; 
+display: flex;
+flex-wrap: wrap;
+align-items: center; 
+justify-content: center;
+border-radius: 2rem; 
+}
+#aprangoskodas {
+    display: inline-flex;
+    justify-content: center;
+    background-color: rgba(255, 190, 152, 0.75);
+    color: white;
+    border-radius: 20px;
+    width: 250px;
+    padding: 10px;
+
+}
+
+#countdownblock {
+    display: block;
+    padding-top: 10px;
+    font-size: 2rem;
+}
+
+iframe {
+    width: 100%;
+    height: 300px;
+}
+
+#countdown {
+    font-size: 4rem;
+}
+
+footer {
+    padding: 20px;
+    background-color: rgb(255, 190, 152);
+    opacity: 70%;
+    text-align: center;
+    color: white;
+    border-top: 2px solid white;
+}
+#pabaiga{
+padding: 10px 0;
+}
